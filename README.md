@@ -1,4 +1,4 @@
-# Networking IT Projects Portfolio 🌐
+# Networking IT Projects Portfolio 
 
 Welcome to my networking portfolio! 
 
