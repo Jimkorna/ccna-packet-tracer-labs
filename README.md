@@ -4,7 +4,7 @@ Welcome to my networking portfolio!
 
 This repository contains a collection of hands-on **Cisco Packet Tracer** networking labs. It is ideal for showcasing and learning core networking concepts through practical, CLI-based projects.
 
-## 🛠️ Key Concepts & Technologies Covered
+##  Key Concepts & Technologies Covered
 
 Inside this project collection, you will find network topologies and configurations that demonstrate the following skills:
 
@@ -16,7 +16,7 @@ Inside this project collection, you will find network topologies and configurati
 * **Router-on-a-Stick:** Configuring a single router interface to route traffic for multiple VLANs using subinterfaces.
 * **Device Configuration:** Practical command-line interface (CLI) setup for Cisco routers and switches.
 
-## 🚀 How to Use This Repository
+##  How to Use This Repository
 
 The lab files are bundled in an archive for easy downloading. To explore the projects:
 
