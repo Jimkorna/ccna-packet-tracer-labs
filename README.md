@@ -1,30 +1,30 @@
-# Networking IT Projects Portfolio 
+# Networking IT Projects Portfolio
 
-Welcome to my networking portfolio! 
+Cisco Packet Tracer labs I built while studying for the CCNA. They cover the basics of
+switching and routing, all configured from the CLI.
 
-This repository contains a collection of hands-on **Cisco Packet Tracer** networking labs. It is ideal for showcasing and learning core networking concepts through practical, CLI-based projects.
+## What's covered
 
-##  Key Concepts & Technologies Covered
+- Basic LAN setup
+- DHCP: servers handing out addresses to end devices
+- IP addressing, both static and dynamic
+- VLANs: segmenting a network into separate broadcast domains
+- Inter-VLAN routing
+- Router-on-a-stick: one router interface routing between VLANs through subinterfaces
+- Cisco router and switch configuration from the command line
 
-Inside this project collection, you will find network topologies and configurations that demonstrate the following skills:
+## Opening the labs
 
-* **Basic LAN Setup:** Designing and connecting simple Local Area Networks.
-* **DHCP Configuration:** Setting up DHCP servers for automatic/dynamic IP address assignment to end devices.
-* **IP Addressing:** Implementing both Static and Dynamic IP addressing schemes.
-* **VLANs (Virtual LANs):** Creating and managing VLANs to segment network traffic securely.
-* **Inter-VLAN Routing:** Enabling communication between different VLANs.
-* **Router-on-a-Stick:** Configuring a single router interface to route traffic for multiple VLANs using subinterfaces.
-* **Device Configuration:** Practical command-line interface (CLI) setup for Cisco routers and switches.
+The labs are packed in `CCNA PROJECTS.rar`.
 
-##  How to Use This Repository
+1. Download and extract the archive (WinRAR, 7-Zip or similar).
+2. Install [Cisco Packet Tracer](https://www.netacad.com/cisco-packet-tracer) if you don't have it.
+3. Open the `.pkt` files.
+4. Look at the CLI configuration on each device and test connectivity with `ping`
+   between subnets and VLANs.
 
-The lab files are bundled in an archive for easy downloading. To explore the projects:
+## Why this is here
 
-1.  Download the `CCNA PROJECTS.rar` file from this repository.
-2.  Extract the archive using tools like WinRAR, 7-Zip, or your OS's built-in extractor.
-3.  Ensure you have **[Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer)** installed on your machine.
-4.  Open the extracted `.pkt` files within Cisco Packet Tracer.
-5.  Explore the topologies, review the CLI configurations on the devices, and test network connectivity (e.g., using `ping` across different subnets).
-
----
-*Created as part of my CCNA practical learning and IT networking portfolio.*
+Networking is where I started before moving into DevOps and cloud infrastructure.
+It still shapes how I troubleshoot: when something doesn't connect, I look at
+addressing, routing and DNS first.
