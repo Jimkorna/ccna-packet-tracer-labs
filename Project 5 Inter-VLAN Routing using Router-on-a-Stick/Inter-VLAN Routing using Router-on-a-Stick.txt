@@ -1,0 +1,34 @@
+📄 Project 5 – Inter-VLAN Routing using Router-on-a-Stick
+Objective:
+Configure communication between multiple VLANs using a single physical router interface (Router-on-a-Stick topology) and assign IP addresses dynamically via DHCP.
+
+Tools Used: Cisco Packet Tracer, Cisco 1941 Router, Catalyst 2960 Switch
+
+Technologies Implemented:
+
+VLAN segmentation (VLAN 10 - HR, VLAN 20 - IT)
+
+Trunking via switchport mode trunk
+
+Sub-interfaces on router using encapsulation dot1Q
+
+DHCP pools per VLAN (configured on router)
+
+IP exclusion ranges for static devices
+
+End-to-end connectivity tested with ping and ipconfig
+
+Configuration Highlights:
+
+Switch access ports assigned to specific VLANs
+
+Trunk established between Switch and Router (Fa0/24 ↔ Gi0/0)
+
+Router subinterfaces (Gi0/0.10, Gi0/0.20) act as default gateways
+
+Router issues IP addresses using built-in DHCP service
+
+All PCs receive IP addresses dynamically and can communicate across VLANs
+
+Outcome:
+Successfully built and tested an Inter-VLAN network with dynamic addressing. All devices could communicate across VLANs with centralized IP management through DHCP on the router.

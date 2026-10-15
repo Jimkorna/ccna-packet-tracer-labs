@@ -1,0 +1,27 @@
+Project 3: Two Subnets Connected with a Router
+
+In this project, I created a network with two separate subnets connected through a router.
+
+Network A:
+- Subnet: 192.168.1.0/24
+- Devices: PC0, PC1
+- Gateway: 192.168.1.1
+
+Network B:
+- Subnet: 192.168.2.0/24
+- Devices: PC2, PC3
+- Gateway: 192.168.2.1
+
+The router connects both networks:
+- Fa0/0 → IP: 192.168.1.1 (Network A)
+- Fa0/1 → IP: 192.168.2.1 (Network B)
+
+Each PC was given a static IP address, subnet mask, and default gateway manually.
+
+Example:
+- PC0: 192.168.1.10 / 255.255.255.0 / 192.168.1.1
+- PC2: 192.168.2.10 / 255.255.255.0 / 192.168.2.1
+
+I tested connectivity with the ping command. All PCs could communicate with each other across networks using the router as the gateway.
+
+This project helped me understand how routers enable communication between different IP subnets.

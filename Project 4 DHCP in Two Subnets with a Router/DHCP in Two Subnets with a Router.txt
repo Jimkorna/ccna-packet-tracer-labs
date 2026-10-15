@@ -1,0 +1,36 @@
+Project 4: DHCP in Two Subnets with a Router
+
+In this project, I created two different subnets connected through a router, and I added a DHCP server for each subnet.
+
+Network A:
+- Subnet: 192.168.1.0/24
+- DHCP Server: 192.168.1.2
+- Gateway (Router): 192.168.1.1
+- Devices: PC0, PC1
+
+Network B:
+- Subnet: 192.168.2.0/24
+- DHCP Server: 192.168.2.2
+- Gateway (Router): 192.168.2.1
+- Devices: PC2, PC3
+
+Router Configuration:
+- Interface Fa0/0 → IP: 192.168.1.1 (connected to Network A)
+- Interface Fa0/1 → IP: 192.168.2.1 (connected to Network B)
+
+DHCP Settings on Server0 (LAN1):
+- Gateway: 192.168.1.1
+- Start IP: 192.168.1.100
+- Subnet Mask: 255.255.255.0
+- DNS: 8.8.8.8
+
+DHCP Settings on Server1 (LAN2):
+- Gateway: 192.168.2.1
+- Start IP: 192.168.2.100
+- Subnet Mask: 255.255.255.0
+- DNS: 8.8.8.8
+
+All PCs were set to obtain IP addresses automatically using DHCP.
+Each PC received a correct IP address from its subnet and could communicate with devices in both subnets using the router.
+
+Ping tests confirmed that all devices had full network connectivity.

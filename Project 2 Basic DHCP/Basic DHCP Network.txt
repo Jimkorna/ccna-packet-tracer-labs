@@ -1,0 +1,27 @@
+Project 2: Basic DHCP Network
+
+In this project, I created a simple local area network (LAN) using:
+
+- 1 DHCP Server
+- 1 Switch
+- 3 PCs (PC0, PC1, PC2)
+
+The goal was to automatically assign IP addresses to all PCs using a DHCP server.
+
+Server configuration:
+- IP Address: 192.168.1.1
+- Subnet Mask: 255.255.255.0
+- DHCP pool range: 192.168.1.2 to 192.168.1.50
+- Default Gateway: 192.168.1.1
+
+All PCs were connected to the switch and set to use DHCP. 
+Each PC received a unique IP address automatically.
+I tested connectivity using the ping command.
+
+Example:
+- PC0 IP: 192.168.1.2
+- PC1 IP: 192.168.1.5
+- PS2 IP: 192.168.1.4
+- ping 192.168.1.1 → successful
+
+This project helped me understand how DHCP works in a basic network setup.

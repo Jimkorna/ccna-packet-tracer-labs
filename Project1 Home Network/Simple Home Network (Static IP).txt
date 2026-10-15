@@ -1,0 +1,25 @@
+Description:
+
+This project simulates a basic home network using Cisco Packet Tracer. It includes three PCs connected to a switch, each configured with a static IPv4 address in the same subnet. The goal is to practice manual IP assignment and test basic device connectivity using the ping command.
+
+Devices used:
+
+3 PCs
+
+1 Switch (2960)
+
+Copper Straight-Through Cables
+
+IP Configuration:
+
+Device	IP Address	Subnet Mask
+PC0	192.168.1.10	255.255.255.0
+PC1	192.168.1.20	255.255.255.0
+PC2	192.168.1.30	255.255.255.0
+
+No gateway or DNS server is needed because all devices are on the same local network and communicate directly.
+
+Testing:
+Ping from one PC to the others using the Command Prompt to verify communication.
+
+
